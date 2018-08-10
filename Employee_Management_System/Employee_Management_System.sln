@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{30B9FAB7-25FA-41AD-9B1B-877F9E8AB467}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{7647801C-3D02-4029-BE51-A1197F6F8102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Data", "Core.Data\Core.Data.csproj", "{6E8528FE-ACF1-4D11-87EC-6320FC7F0953}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E8528FE-ACF1-4D11-87EC-6320FC7F0953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E8528FE-ACF1-4D11-87EC-6320FC7F0953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E8528FE-ACF1-4D11-87EC-6320FC7F0953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E8528FE-ACF1-4D11-87EC-6320FC7F0953}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E8528FE-ACF1-4D11-87EC-6320FC7F0953} = {30B9FAB7-25FA-41AD-9B1B-877F9E8AB467}
+	EndGlobalSection
+EndGlobal
